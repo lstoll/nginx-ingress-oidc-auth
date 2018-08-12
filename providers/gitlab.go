@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/bitly/oauth2_proxy/api"
+	"github.com/lstoll/nginx-ingress-oidc-auth/api"
 )
 
 type GitLabProvider struct {

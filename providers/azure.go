@@ -3,11 +3,12 @@ package providers
 import (
 	"errors"
 	"fmt"
-	"github.com/bitly/go-simplejson"
-	"github.com/bitly/oauth2_proxy/api"
 	"log"
 	"net/http"
 	"net/url"
+
+	"github.com/bitly/go-simplejson"
+	"github.com/lstoll/nginx-ingress-oidc-auth/api"
 )
 
 type AzureProvider struct {

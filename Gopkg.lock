@@ -26,18 +26,6 @@
   version = "v0.5.0"
 
 [[projects]]
-  digest = "1:91d61709a7c05f259f0dd958bd3cb0d06e5b569147da432cc2d1036b23b678de"
-  name = "github.com/bitly/oauth2_proxy"
-  packages = [
-    "api",
-    "cookie",
-    "providers",
-  ]
-  pruneopts = ""
-  revision = "b90a23473f10c7bb2d84acd033f7d7ed81b95dd3"
-  version = "v2.2"
-
-[[projects]]
   branch = "v2"
   digest = "1:e5a238f8fa890e529d7e493849bbae8988c9e70344e4630cc4f9a11b00516afb"
   name = "github.com/coreos/go-oidc"
@@ -209,9 +197,6 @@
   input-imports = [
     "github.com/BurntSushi/toml",
     "github.com/bitly/go-simplejson",
-    "github.com/bitly/oauth2_proxy/api",
-    "github.com/bitly/oauth2_proxy/cookie",
-    "github.com/bitly/oauth2_proxy/providers",
     "github.com/coreos/go-oidc",
     "github.com/mbland/hmacauth",
     "github.com/mreiferson/go-options",

@@ -15,7 +15,7 @@ to validate accounts by email, domain or group.
 
 ## Installation
 
-1. Download [Prebuilt Binary](https://github.com/bitly/oauth2_proxy/releases) (current release is `v2.2`) or build with `$ go get github.com/bitly/oauth2_proxy` which will put the binary in `$GOROOT/bin`
+1. Download [Prebuilt Binary](https://github.com/lstoll/nginx-ingress-oidc-auth/releases) (current release is `v2.2`) or build with `$ go get github.com/lstoll/nginx-ingress-oidc-auth` which will put the binary in `$GOROOT/bin`
 Prebuilt binaries can be validated by extracting the file and verifying it against the `sha256sum.txt` checksum file provided for each release starting with version `v2.3`.
 ```
 sha256sum -c sha256sum.txt 2>&1 | grep OK
